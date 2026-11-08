@@ -29,4 +29,4 @@ The dataset and the data generator package (`Europress_SMART_Material_Value_Engi
 
 ## AI use
 
-Claude, Claude-code, Gemini and Chatgpt were used for ideation, research, and running the analysis code, simulations and the demo page. Also, they were used as assistive aids for reports' language refinement, restructuring, and assistance with organizing and verifying technical material. 
+Claude, Claude-code, Gemini and Chatgpt were used for ideation, research, and running the analysis code, simulations and the demo page along with the narrated video with an AI voice (Kokoro) and subtitles. Also, they were used as assistive aids for reports' language refinement, restructuring, and assistance with organizing and verifying technical material. 
