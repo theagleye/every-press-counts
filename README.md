@@ -14,7 +14,8 @@ All data is synthetic, and all euro figures use the dataset's hypothetical price
 - [Part 2, value, SMART and business](docs/value.md): where money is lost today, what lifting by kilos adds, one machine and one lift traced in detail, the SMART workflow and replay, what the data makes possible for Europress, and the rollout.
 - [What this work rests on](docs/limits.md): assumptions, weak spots and what remains untested.
 - [Third-party components and licenses](LICENSES.md).
-- The demo page https://theagleye.github.io/every-press-counts/demo/index.html opens in any browser.
+- Live demo: https://theagleye.github.io/every-press-counts/demo/index.html
+- Video (2:09): https://youtu.be/PVGid5Sl44U
 - [All three reports as one PDF](docs/report.pdf), built from the same markdown by `scripts/build_pdf.py`.
 
 ## What each script does
