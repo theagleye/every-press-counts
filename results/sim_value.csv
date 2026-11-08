@@ -1,0 +1,26 @@
+variant,description,gauge_err_med,cases,best_without_eur,weight_adds_eur,eur_per_machine_year,without_per_machine_year,total_per_machine_year,kilo_best_share,kilo_permissible,overflow_h,vs_gauge
+perfect,sensor error ~0,0.0009,1851,142557,66405,234,502,736,0.237,0.642,24.11,0.979
+base,"built-in gauge, their spec",0.0128,1851,142557,67894,239,502,741,0.243,0.659,23.06,1.0
+x2,gauge error x2,0.0253,1851,142557,65611,231,502,733,0.243,0.676,21.92,0.967
+x4,gauge error x4,0.0501,1851,142557,69427,244,502,746,0.247,0.713,19.38,1.021
+x7,gauge error x7,0.0861,1851,142557,69923,246,502,748,0.237,0.768,16.01,1.029
+x14,gauge error x14,0.1703,1851,142557,52894,186,502,688,0.16,0.838,10.69,0.778
+gain6,"uncalibrated gauge, gain sd 6%",0.0759,1851,142557,58288,205,502,707,0.232,0.639,25.91,0.858
+biasp6,every gauge reads 6% high,0.0596,1851,142557,73243,258,502,760,0.254,0.715,18.82,1.079
+biasm6,every gauge reads 6% low,0.0605,1851,142557,59079,208,502,710,0.211,0.586,28.83,0.87
+dual95,gauge + fill stop at 95%,0.0128,1851,142557,58014,204,502,706,0.249,0.684,20.49,0.854
+dual98,gauge + fill stop at 98%,0.0128,1851,142557,72328,255,502,757,0.251,0.673,21.23,1.067
+fillmass,software: kg from fill reading,0.0128,1851,142557,41631,147,502,649,0.193,0.742,18.86,0.615
+fillmass15,"software from fill, 15% density error",0.0128,1851,142557,41738,147,502,649,0.169,0.699,22.4,0.615
+strokes,stroke count,0.0128,1851,142557,56356,198,502,700,0.22,0.633,24.99,0.828
+strokes15,"stroke count, 15% kg/stroke error",0.0128,1851,142557,54277,191,502,693,0.196,0.602,26.85,0.799
+st_spur,"stroke count, +20% empty strokes",0.0128,1851,142557,62545,220,502,722,0.204,0.824,11.24,0.921
+st_drift,"stroke count, +-20% seasonal drift",0.0128,1851,142557,54012,190,502,692,0.185,0.606,27.13,0.795
+st_miss,"stroke count, 10% days lost, undetected",0.0128,1851,142557,31914,112,502,614,0.118,0.46,37.58,0.469
+st_missfb,"stroke count, 10% days lost, fill fallback",0.0128,1851,142557,49353,174,502,676,0.197,0.585,27.47,0.728
+st_hi,"stroke count, calibrated 10% high",0.0128,1851,142557,67369,237,502,739,0.251,0.721,17.94,0.992
+fillcal,"fill sensors calibrated at the factory, gauge",0.0128,1851,144506,58912,207,509,716,0.222,0.627,23.18,0.866
+fillcal_fm,"fill sensors calibrated at the factory, kg from fill",0.0128,1851,144506,39786,140,509,649,0.213,0.742,16.12,0.586
+st_hab,"strokes, site habits 1-20x, stream calibration, 10% high",0.0128,1851,142557,22034,78,502,580,0.078,0.718,22.23,0.326
+st_habcal,"strokes, site habits 1-20x, 3 weighed lifts per site (8% site error), 10% high",0.0128,1851,142557,63852,225,502,727,0.221,0.712,19.06,0.941
+st_habcal12,"strokes, site habits 1-20x, 3 weighed lifts per site (12% site error), 10% high",0.0128,1851,142557,61951,218,502,720,0.202,0.702,19.97,0.912

@@ -1,0 +1,13 @@
+# Value of weighing accuracy (synthetic data; reference = shared single-load weighbridge tickets)
+
+|   concept_sigma_pct |   loads |   within_100kg_on_2.5-3.5t_loads |   median_eur_per_t_error_pct |   p95_eur_per_t_error_pct |   detects_+10pct_tonnage_overbilling |   false_alarm_rate_on_correct_invoices |
+|--------------------:|--------:|---------------------------------:|-----------------------------:|--------------------------:|-------------------------------------:|---------------------------------------:|
+|                 1.5 |   10342 |                            0.969 |                         1.14 |                      3.96 |                                0.947 |                                 0.0147 |
+|                10   |   10342 |                            0.286 |                         6.64 |                     20.23 |                                0.156 |                                 0.0206 |
+
+Reconciliation reality in this dataset: the device's own collected-mass estimate (reading before minus after the lift)
+vs the operator's weighbridge net. Both sides carry error: device noise and sensor faults, material added between
+readings, residuals, and outdated stored vehicle tares at the weighbridge. Differences are not automatically anyone's fault:
+  loads 9174, median |difference| 2.76 %, p95 |difference| 25.00 %, within 100 kg on 2.5-3.5 t loads 0.685
+
+Read it as: which accuracy does a business use case really need? Verification of operator tonnage needs a much tighter error than cost-per-tonne reporting. Device weight is never a billing basis today.

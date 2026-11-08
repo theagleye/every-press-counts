@@ -1,0 +1,27 @@
+method,subset,lifts,med_err,p90_err,bias,under20,over20
+stroke count,all,5383,0.075,0.61,0.0,0.025,0.161
+stroke count x1.1,all,5383,0.108,0.763,0.1,0.008,0.256
+fill x density,all,5383,0.13,0.343,0.001,0.137,0.171
+built-in gauge (simulated),all,4838,0.021,0.069,-0.011,0.007,0.008
+stroke count,full telemetry,5200,0.073,0.6,0.001,0.019,0.162
+stroke count,telemetry gaps,183,0.135,0.758,-0.082,0.191,0.148
+stroke count,capacity check passed,4990,0.069,0.247,-0.011,0.027,0.105
+stroke count x1.1,capacity check passed,4990,0.1,0.334,0.088,0.009,0.204
+stroke count,capacity check failed,393,1.052,3.4,1.052,0.0,0.875
+stroke count,strokes 11-50,1304,0.108,0.335,0.003,0.068,0.179
+stroke count,strokes 51-100,1958,0.069,0.202,-0.003,0.018,0.084
+stroke count,strokes 101-200,1418,0.06,0.862,-0.008,0.005,0.147
+stroke count,strokes 201-400,592,0.061,1.308,-0.008,0.003,0.262
+stroke count,strokes >400,111,1.254,4.5,1.254,0.0,0.964
+stroke count,biowaste,1116,0.109,0.723,0.001,0.056,0.22
+fill x density,biowaste,1116,0.109,0.306,0.001,0.104,0.147
+stroke count,cardboard,1819,0.067,0.511,-0.0,0.014,0.141
+fill x density,cardboard,1819,0.128,0.314,0.001,0.131,0.152
+stroke count,mixed_plastic,158,0.063,0.218,0.001,0.051,0.076
+fill x density,mixed_plastic,158,0.099,0.399,0.005,0.196,0.127
+stroke count,mixed_waste,1407,0.07,0.545,0.0,0.014,0.152
+fill x density,mixed_waste,1407,0.161,0.389,-0.002,0.168,0.224
+stroke count,paper,139,0.135,0.976,-0.007,0.086,0.237
+fill x density,paper,139,0.098,0.372,0.009,0.137,0.115
+stroke count,plastic_film,744,0.067,0.695,-0.0,0.008,0.147
+fill x density,plastic_film,744,0.132,0.327,0.002,0.128,0.176

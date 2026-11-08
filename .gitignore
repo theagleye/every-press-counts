@@ -1,0 +1,5 @@
+__pycache__/
+schema/
+results/fiware_keyvalues.json
+results/fiware_ngsild.json
+results/demo_data.json

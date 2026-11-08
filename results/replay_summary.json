@@ -1,0 +1,34 @@
+{
+ "machines": 447,
+ "fill_cycles": 17842,
+ "low_confidence_at_lift": 0.089,
+ "median_kg_share_of_capacity_at_lift": 0.685,
+ "lifts_before_kilo_target": 0.648,
+ "first_call": {
+  "none": 0.603,
+  "kilos": 0.358,
+  "fill stop": 0.029,
+  "fill fallback": 0.011
+ },
+ "watchdog": {
+  "windows": 312,
+  "caught": 274,
+  "caught_share": 0.878,
+  "alarm_hours": 14040,
+  "alarm_hours_in_windows": 0.854,
+  "machines_alarmed_outside": 54
+ },
+ "ad_hoc_customer_lifts": {
+  "lifts": 508,
+  "kilo_call_first": 0.793,
+  "median_hours_ahead": 49.0
+ },
+ "labeled_premature": {
+  "lifts": 1777,
+  "held": 1713,
+  "eur": 262849.47,
+  "eur_held": 253090.59,
+  "on_call_held_labeled": 0.972,
+  "on_call_held_not_labeled": 0.43
+ }
+}

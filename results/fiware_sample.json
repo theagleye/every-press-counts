@@ -1,0 +1,188 @@
+[
+ {
+  "id": "urn:ngsi-ld:WasteContainer:CMP-00001",
+  "type": "WasteContainer",
+  "@context": [
+   "https://raw.githubusercontent.com/smart-data-models/dataModel.WasteManagement/master/context.jsonld",
+   "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ],
+  "fillingLevel": {
+   "type": "Property",
+   "value": 0.843,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "binMaxLoad": {
+   "type": "Property",
+   "value": 3344,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteKind": {
+   "type": "Property",
+   "value": "other",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteOrigin": {
+   "type": "Property",
+   "value": "industrial",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "status": {
+   "type": "Property",
+   "value": "ok",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "dateLastEmptying": {
+   "type": "Property",
+   "value": {
+    "@type": "DateTime",
+    "@value": "2026-09-24T08:42:46+00:00"
+   }
+  },
+  "cargoWeight": {
+   "type": "Property",
+   "value": 2772,
+   "unitCode": "KGM",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00",
+   "measurementMethod": {
+    "type": "Property",
+    "value": "estimated:stroke-count"
+   },
+   "confidence": {
+    "type": "Property",
+    "value": "normal"
+   },
+   "kgPerStroke": {
+    "type": "Property",
+    "value": 30.46
+   },
+   "compactionCycles": {
+    "type": "Property",
+    "value": 91
+   }
+  }
+ },
+ {
+  "id": "urn:ngsi-ld:WasteContainer:CMP-00002",
+  "type": "WasteContainer",
+  "@context": [
+   "https://raw.githubusercontent.com/smart-data-models/dataModel.WasteManagement/master/context.jsonld",
+   "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ],
+  "fillingLevel": {
+   "type": "Property",
+   "value": 0.755,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "binMaxLoad": {
+   "type": "Property",
+   "value": 2138,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteKind": {
+   "type": "Property",
+   "value": "paper",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteOrigin": {
+   "type": "Property",
+   "value": "industrial",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "status": {
+   "type": "Property",
+   "value": "ok",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "dateLastEmptying": {
+   "type": "Property",
+   "value": {
+    "@type": "DateTime",
+    "@value": "2026-09-16T08:02:05+00:00"
+   }
+  },
+  "cargoWeight": {
+   "type": "Property",
+   "value": 1428,
+   "unitCode": "KGM",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00",
+   "measurementMethod": {
+    "type": "Property",
+    "value": "estimated:stroke-count"
+   },
+   "confidence": {
+    "type": "Property",
+    "value": "low: telemetry gap, use fill"
+   },
+   "kgPerStroke": {
+    "type": "Property",
+    "value": 22.66
+   },
+   "compactionCycles": {
+    "type": "Property",
+    "value": 63
+   }
+  }
+ },
+ {
+  "id": "urn:ngsi-ld:WasteContainer:CMP-00003",
+  "type": "WasteContainer",
+  "@context": [
+   "https://raw.githubusercontent.com/smart-data-models/dataModel.WasteManagement/master/context.jsonld",
+   "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ],
+  "fillingLevel": {
+   "type": "Property",
+   "value": 0.712,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "binMaxLoad": {
+   "type": "Property",
+   "value": 3344,
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteKind": {
+   "type": "Property",
+   "value": "other",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "storedWasteOrigin": {
+   "type": "Property",
+   "value": "industrial",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "status": {
+   "type": "Property",
+   "value": "ok",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00"
+  },
+  "dateLastEmptying": {
+   "type": "Property",
+   "value": {
+    "@type": "DateTime",
+    "@value": "2026-09-25T12:15:53+00:00"
+   }
+  },
+  "cargoWeight": {
+   "type": "Property",
+   "value": 1828,
+   "unitCode": "KGM",
+   "observedAt": "2026-09-30T20:59:59.734000+00:00",
+   "measurementMethod": {
+    "type": "Property",
+    "value": "estimated:stroke-count"
+   },
+   "confidence": {
+    "type": "Property",
+    "value": "normal"
+   },
+   "kgPerStroke": {
+    "type": "Property",
+    "value": 30.46
+   },
+   "compactionCycles": {
+    "type": "Property",
+    "value": 60
+   }
+  }
+ }
+]

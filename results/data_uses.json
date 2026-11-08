@@ -1,0 +1,33 @@
+{
+ "strokes_per_machine_year": {
+  "machines": 447,
+  "p10": 830,
+  "median": 2841,
+  "p90": 10260,
+  "p90_over_p10": 12.4
+ },
+ "corrective_orders_per_machine_by_use": {
+  "Q1 least used": 1.18,
+  "Q2": 1.41,
+  "Q3": 1.39,
+  "Q4 most used": 1.22
+ },
+ "kg_per_stroke_outdoor_vs_indoor": {
+  "biowaste": 0.979,
+  "cardboard": 1.034,
+  "mixed_plastic": 1.013,
+  "mixed_waste": 0.995,
+  "paper": 0.996,
+  "plastic_film": 0.979
+ },
+ "machines_by_typical_load_at_lift": {
+  "machines": 447,
+  "below_50pct": 88,
+  "between": 313,
+  "above_100pct": 46
+ },
+ "site_round_trip_km": {
+  "sites": 150,
+  "median": 28.0
+ }
+}

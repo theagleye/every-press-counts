@@ -1,0 +1,5 @@
+scenario,coverage_90,median_width,reweigh_per_machine_year,site_calibration_sd
+none,0.865,1.9,0.07,0.066
+habits,0.867,2.02,0.09,0.121
+banana,0.867,1.97,0.07,0.08
+chaos,0.859,2.04,0.57,0.434
